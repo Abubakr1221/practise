@@ -1,0 +1,111 @@
+@import url(//db.onlinewebfonts.com/c/8ffe55aed043353e544d40e9876e9048?family=Bely+Display);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    max-width: 100%;
+    font-family: sans-serif;
+}
+
+
+.root {
+
+}
+
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    /*border: 1px solid;*/
+}
+
+
+.header__nav {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+
+
+
+.header-nav__list {
+     display: flex;
+     gap: 40px;
+}
+
+
+.header-nav__item:last-child{
+    color:  #71A894;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}
+
+
+
+/*!hero start*/
+
+
+   .hero {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       gap: 100px;
+
+   }
+
+
+   .hero__card {
+       width: 600px;
+   }
+
+
+   .hero-card__title {
+       width: 600px;
+       color: #303031;
+       font-family: 'Bely Display';
+       font-size: 64px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 80px;
+   }
+
+
+   .hero-card__text {
+       width: 550px;
+       color:  #66645E;
+       font-family: sans-serif;
+       font-size: 18px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 32px;
+       letter-spacing: -0.48px;
+       margin-bottom: 40px;
+   }
+
+
+   .hero-card__btn {
+       border-radius: 8px;
+       background: #71A894;
+       padding: 20px 24px;
+       border: none;
+       color:  #FFF;
+       font-family: sans-serif;
+       font-size: 18px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: 24px;
+   }
